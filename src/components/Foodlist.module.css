@@ -1,0 +1,85 @@
+.fdlst {
+  width: 51%;
+  margin: auto;
+  background-color: rgb(254, 255, 244);
+}
+.unordered_foodlist {
+  list-style: none;
+}
+.list {
+  border-bottom: 2px solid pink;
+  margin-bottom: 5px;
+}
+
+.kiste1 {
+  display: flex;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+  padding: 5px;
+  gap: 9px;
+}
+
+.kiste1 > div {
+  flex: 1 1 0%;
+  font-size: 18px;
+
+  width: auto;
+  font-weight: 200;
+  font-style: oblique;
+  color: rgb(32, 86, 43);
+}
+
+.kiste1 > .name {
+  flex: 4 1 0%;
+  font-size: 24px;
+  font-weight: 350;
+  font-style: normal;
+  text-align: start;
+}
+
+.kiste1 > .button_box {
+  text-align: end;
+  font-size: 20px;
+}
+.button {
+  font-size: 20px;
+  border: none;
+  padding: 7px 10px;
+  background-color: rgb(32, 86, 43, 0.572);
+  color: rgb(32, 86, 43);
+}
+.kiste1 > .ingredients {
+  text-align: start;
+  flex: 2 1 0%;
+}
+/* .unordered_foodlist {
+  list-style: none;
+  align-items: center;
+  display: flex wrap;
+  width: 100%;
+  background-color: aqua;
+}
+
+.unordered_foodlist > .list {
+  border-bottom: 1px solid red;
+  font-size: 18px;
+  margin: 15px;
+  padding-bottom: 15px;
+}
+/* .list {
+  display: flex;
+
+} */
+/* .list > div {
+  align-self: center;
+  margin: 0 auto;
+  box-shadow: 0 0 0 3px black;
+  margin-bottom: 10px;
+} */
+
+/* .list > Button {
+  border: 1px solid red;
+  font-size: 15px;
+  align-items: flex-end;
+} */

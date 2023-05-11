@@ -1,0 +1,12 @@
+.card {
+  margin: 20px 90px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(254, 255, 244);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.welcome_statement {
+  margin: 0px;
+  padding: 40px;
+}

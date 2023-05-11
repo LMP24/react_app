@@ -1,0 +1,53 @@
+.backdrop {
+  position: fixed;
+  top: 11%;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.cart {
+  font-size: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+  list-style: none;
+}
+
+.unorderd_list_box {
+  margin: 20px;
+  display: flex wrap;
+  justify-content: baseline;
+  list-style: none;
+}
+
+.unorderd_list_box > li {
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  border-bottom: 2px solid pink;
+}
+
+.list {
+  display: flex;
+}
+
+.list > div {
+  flex: 33.33%;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.ingredients {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.button {
+  width: 80px;
+  border: none;
+}
